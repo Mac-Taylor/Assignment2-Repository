@@ -373,12 +373,290 @@ $("#stop_all").click(function(){
 </script>
 </head>
 
-<body>
-    <header>Webpage</header>
+<body class="home page page-template-page-reviews ajax-on macOs" style="padding-bottom: 390px;">
 
-    <main>Body text</main>
+<div id="jquery_jplayer_1" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_0" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_0" preload="none" src="http://wpc.4dfac.alphacdn.net/004DFAC/sounds/hipster/aspen-tree160.mp3" title="Aspen tree"></audio></div>
+<div id="jquery_jplayer_2" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_1" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_1" preload="none" src="http://192.161.179.234/sounds/forest-at-dawn.mp3" title="Forest after rain"></audio></div>
+<div id="jquery_jplayer_3" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_2" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_2" preload="none" src="http://wpc.4dfac.alphacdn.net/004DFAC/sounds/objects/paper.mp3" title="Paper"></audio></div>
+<div id="jquery_jplayer_4" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_3" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_3" preload="none" src="http://192.161.179.234/sounds/people/brushing-tapewriter160.mp3" title="Brushing"></audio></div>
+<div id="jquery_jplayer_5" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_4" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_4" preload="none" src="http://192.161.179.234/sounds/people/barbershop160.mp3" title="Barbershop"></audio></div>
+<div id="jquery_jplayer_6" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_5" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_5" preload="none" src="http://wpc.4dfac.alphacdn.net/004DFAC/sounds/pebble-beach.mp3" title="Pebble beach"></audio></div>
+<div id="jquery_jplayer_7" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_6" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_6" preload="none" src="http://192.161.179.234/sounds/people/rainy-walk160.mp3" title="Rainy-walk"></audio></div>
+<div id="jquery_jplayer_8" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_7" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_7" preload="none" src="http://192.161.179.234/sounds/hipster/snow.mp3" title="Snow"></audio></div>
+<div id="jquery_jplayer_9" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_8" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_8" preload="none" src="http://wpc.4dfac.alphacdn.net/004DFAC/sounds/people/walking-leaves.mp3" title="Walking through leaves"></audio></div>
+<div id="jquery_jplayer_10" class="jp-jplayer" style="width: 0px; height: 0px;"><img id="jp_poster_9" style="width: 0px; height: 0px; display: none;"><audio id="jp_audio_9" preload="none" src="http://192.161.179.234/sounds/bonfire160.mp3" title="Bonfire"></audio></div>
+
+<div id="contentContainer" style="height: 610px;">
+	
+	<!--LOGO-->
+	<img src="images/logo.svg" id="logo" alt="asmrion">
+		
+	<!--MENU CONTROL-->
+	<div id="menu-control"><span></span></div>
+	
+	<!--AJAX CONTAINER-->
+	<div id="ajax-content">
+	
+		<!--PAGE INFO FOR UPDATING BODY CLASS AND DOC TITLE-->
+		<div id="page-info" data-page-title="" class="home page page-template-page-reviews ajax-on"></div>
+			
+
+		
+		<!--REVIEWS-->
+		<div id="reviews">	
+		
+			<div class="review">
+				<div class="reviewContent">
+					<p>Autonomous Sensory Meridian Response is a euphoric experience characterized by a tingling sensation on the skin, precipitating relaxation.</p>
+				</div>
+				<div class="reviewTitle">Wikipedia</div>
+			</div>
+			
+			<div class="review">
+				<div class="reviewContent">
+					<p>Asmr signifies the subjective experience of 'low-grade euphoria' characterized by a combination of positive feelings and pleasant relaxation.</p>
+				</div>
+				<div class="reviewTitle">Wikipedia</div>
+			</div>
+		
+
+		</div><!--end reviews-->
+		
+	</div><!--END AJAX CONTAINER-->
+
+<div class="time">
+<span class="kkcountdown" data-seconds="3600"></span>
+</div>
+
+	<!--AUDIO PLAYER-->
+<div id="stop_all">
+	<div id="audioControl" class="paused">
+		<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>		
+	</div>
+</div>
+
+	
+<!-- 	<audio id="audioPlayer">
+	  <source src="https://hearthis.at/razbo/aspen-tree-in-strong-wind/download/?secret=O35tw" type="audio/mpeg">
+	</audio> -->
+	
+
+	
+	
+<div class="boxes">	
+
+			<div id="jp_container_1" class="mybox jp-state-looped jp-state-playing">			
+				<a href="javascript:;" aria-label="Leaves rustling in the wind" class="jp-play hint--top" id="shower1" style="display: none;"><img src="images/1leaves.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Leaves rustling in the wind" class="jp-pause hint--top" id="hider1" style="display: inline-block;"><img src="images/1leaves.png" alt=""></a>
+				<div class="jp-volume-bar1 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slvolume1"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 50%;"></span></div>
+		    </div>	
+
+			<div id="jp_container_2" class="mybox jp-state-looped">			
+				<a href="javascript:;" aria-label="Forest at dawn after the rain" class="jp-play hint--top" id="shower2"><img src="images/1tree.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Forest at dawn after the rain" class="jp-pause hint--top" id="hider2" style="display: none;"><img src="images/1tree.png" alt=""></a>
+				<div class="jp-volume-bar2 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume2"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>	
+
+			<div id="jp_container_10" class="mybox jp-state-looped">			
+				<a href="javascript:;" aria-label="Crackling bonfire" class="jp-play hint--top" id="shower10"><img src="images/1fire.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Crackling bonfire" class="jp-pause hint--top" id="hider10" style="display: none;"><img src="images/1fire.png" alt=""></a>
+				<div class="jp-volume-bar10 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume10"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>
+
+			<div id="jp_container_8" class="mybox jp-state-looped">				
+				<a href="javascript:;" aria-label="Heavy snowstorm" class="jp-play hint--top" id="shower8"><img src="images/1snow.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Heavy snowstorm" class="jp-pause hint--top" id="hider8" style="display: none;"><img src="images/1snow.png" alt=""></a>
+				<div class="jp-volume-bar8 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume8"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>	
+					
+			<div id="jp_container_7" class="mybox jp-state-looped">				
+				<a href="javascript:;" aria-label="Walking on a rainy day" class="jp-play hint--top" id="shower7"><img src="images/1drop.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Walking on a rainy day" class="jp-pause hint--top" id="hider7" style="display: none;"><img src="images/1drop.png" alt=""></a>
+				<div class="jp-volume-bar7 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume7"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>
+			
+			<p class="hide"></p>
+			
+			<div id="jp_container_6" class="mybox jp-state-looped">			
+				<a href="javascript:;" aria-label="Pebble beach" class="jp-play hint--top" id="shower6"><img src="images/1ear.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Pebble beach" class="jp-pause hint--top" id="hider6" style="display: none;"><img src="images/1ear.png" alt=""></a>
+				<div class="jp-volume-bar6 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume6"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>				
+
+			<div id="jp_container_5" class="mybox jp-state-looped">				
+				<a href="javascript:;" aria-label="Barbershop haircut" class="jp-play hint--top" id="shower5"><img src="images/1cloth.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Barbershop haircut" class="jp-pause hint--top" id="hider5" style="display: none;"><img src="images/1cloth.png" alt=""></a>
+				<div class="jp-volume-bar5 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume5"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>	
+			
+			<div id="jp_container_4" class="mybox jp-state-looped">				
+				<a href="javascript:;" aria-label="Whispering" class="jp-play hint--top" id="shower4"><img src="images/1gear.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Whispering" class="jp-pause hint--top" id="hider4" style="display: none;"><img src="images/1gear.png" alt=""></a>
+				<div class="jp-volume-bar4 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume4"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>		
+
+			<div id="jp_container_3" class="mybox jp-state-looped">				
+				<a href="javascript:;" aria-label="Ripping a paper" class="jp-play hint--top" id="shower3"><img src="images/1s.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Ripping a paper" class="jp-pause hint--top" id="hider3" style="display: none;"><img src="images/1s.png" alt=""></a>
+				<div class="jp-volume-bar3 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume3"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>
+			
+			<div id="jp_container_9" class="mybox jp-state-looped">				
+				<a href="javascript:;" aria-label="Walk on a carpet of leaves" class="jp-play hint--top" id="shower9"><img src="images/1ocean.png" style="opacity:0.8" alt=""></a>
+				<a href="javascript:;" aria-label="Walk on a carpet of leaves" class="jp-pause hint--top" id="hider9" style="display: none;"><img src="images/1ocean.png" alt=""></a>
+				<div class="jp-volume-bar9 ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="visibility: hidden;" id="slvolume9"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 80%;"></span></div>
+		    </div>				
+
+		
+			
+</div>
+
+	<div id="socialIcons" class="share-btn" data-url="http://asmrion.com" data-title="ASMRion" data-desc="Generator of positive feelings.">		
+		<a id="link-tumblr" data-id="in" data-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+		<a id="link-google-plus" data-id="gp" data-title="Google+"><i class="fa fa-google-plus"></i></a>		
+		<a id="link-facebook" data-id="fb" data-title="Facebook"><i class="fa fa-facebook"></i></a>
+		<a id="link-twitter" data-id="tw" data-title="Twitter"><i class="fa fa-twitter"></i></a>	    
+	</div>
+
+		
+	<div id="headerImages" class="fs-background-element fs-background"><div class="fs-background-container"><div class="fs-background-media  fs-background-animated" style="height: 610px; top: 0px; opacity: 1; width: 1084.44px; left: -246.222px;"><video loop="" muted=""><source src="http://664255532.r.worldcdn.net/videos/magic-cloth-demo.mp4" type="video/mp4"></video></div></div></div>
+	
+
+	<div id="loading-page" style="display: none; background-image: none;"></div>
+	
+		<div id="contentCover"></div>
+	
+</div>
+
+<div id="footerContainer">
+	<div id="footer">  		
+		
+	
+		<div id="vys-credits">
+			
+			<div class="more">More positive vibes on</div>
+			<a id="footer-logo" href="http://hipstersound.com/premium-asmrion.html"><img src="images/logoprem.svg" alt="premium"></a>
+			
+			<span>Combine the sounds <small>into</small></span>
+			<span><small>your</small> own unique asmr <small>environment.</small></span>
+			<span><small>Give you</small> an easy relaxation, <small>stay focused</small></span> 
+			<span>just calm</span> 
+			<span><small>with one of</small></span> 
+			<span>the multitude</span> 
+			<span><small>of combinations.</small> The first </span> 
+			<span><small>Asmr sound generator</small> for positive</span> 
+			<span><small>feelings and</small> pleasant relaxation.</span> 
+
+			
+
+<div id="rating" class="g-rating">
+	<div id="rating-letter"><i class="fa fa-headphones"></i></div>
+	<div id="rating-title">Headphones strongly suggested</div>
+	<div id="rating-info">to experience full immersion</div>
+</div>
+			
+		</div>
+			
+		<div id="footerMenuContainer" class="menu-footer-container">
+			<ul id="footerMenu" class="menu">
+				<li>Powered by <a href="http://hipstersound.com" rel="nofollow">HipsterSound</a></li>
+				
+		</div>		
+		
+		
+		<div id="copyright">© 2017 ASMRION.COM | <a href="credits.html" target="_blank">CREDITS AND ATTRIBUTIONS</a></div>
+		
+	</div>
+</div>
+
+<div id="sidebar">
+	
+	<img src="images/logo.svg" id="sidebar-logo" alt="">
+
+	<nav id="navigation" class="hasLogo">
+		<ul id="dropmenu" class="menu">		
+			<li><a href="http://hipstersound.com/premium-asmrion.html">Go premium and get access to all features</a></li>
+			<li> &nbsp; </li>
+			<li><a href="http://hipstersound.com/premium-asmrion.html" class="btn">Sign up today</a></li>
+		</ul>
+	</nav>
+
+</div>
+	
+<script>
+
+$( "#hider1" ).click(function() {
+  $( "#slvolume1" ).css( "visibility", "hidden" );
+});
+$( "#shower1" ).click(function() {
+  $( "#slvolume1" ).css( "visibility", "visible" );
+});
+
+$( "#hider2" ).click(function() {
+  $( "#slvolume2" ).css( "visibility", "hidden" );
+});
+$( "#shower2" ).click(function() {
+  $( "#slvolume2" ).css( "visibility", "visible" );
+});
+
+$( "#hider3" ).click(function() {
+  $( "#slvolume3" ).css( "visibility", "hidden" );
+});
+$( "#shower3" ).click(function() {
+  $( "#slvolume3" ).css( "visibility", "visible" );
+});
+
+$( "#hider4" ).click(function() {
+  $( "#slvolume4" ).css( "visibility", "hidden" );
+});
+$( "#shower4" ).click(function() {
+  $( "#slvolume4" ).css( "visibility", "visible" );
+});
+
+$( "#hider5" ).click(function() {
+  $( "#slvolume5" ).css( "visibility", "hidden" );
+});
+$( "#shower5" ).click(function() {
+  $( "#slvolume5" ).css( "visibility", "visible" );
+});
+
+$( "#hider6" ).click(function() {
+  $( "#slvolume6" ).css( "visibility", "hidden" );
+});
+$( "#shower6" ).click(function() {
+  $( "#slvolume6" ).css( "visibility", "visible" );
+});
+
+$( "#hider7" ).click(function() {
+  $( "#slvolume7" ).css( "visibility", "hidden" );
+});
+$( "#shower7" ).click(function() {
+  $( "#slvolume7" ).css( "visibility", "visible" );
+});
+
+$( "#hider8" ).click(function() {
+  $( "#slvolume8" ).css( "visibility", "hidden" );
+});
+$( "#shower8" ).click(function() {
+  $( "#slvolume8" ).css( "visibility", "visible" );
+});
+
+$( "#hider9" ).click(function() {
+  $( "#slvolume9" ).css( "visibility", "hidden" );
+});
+$( "#shower9" ).click(function() {
+  $( "#slvolume9" ).css( "visibility", "visible" );
+});
+
+$( "#hider10" ).click(function() {
+  $( "#slvolume10" ).css( "visibility", "hidden" );
+});
+$( "#shower10" ).click(function() {
+  $( "#slvolume10" ).css( "visibility", "visible" );
+});
+</script>
+<script type="text/javascript" src="scripts/core.js"></script>
+
 </body>
-
-
 
 </html>

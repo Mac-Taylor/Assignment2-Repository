@@ -1,6 +1,45 @@
 html {height: 100%;
 position: relative}
 
+* {
+  -webkit-touch-callout: none;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;    
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 1.6em;
+	
+	-webkit-transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+	-moz-transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+	-o-transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+	transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;  
+ 
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+user agent stylesheet
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
 
 
 body {background-color: red}
