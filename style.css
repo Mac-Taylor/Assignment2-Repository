@@ -1,6 +1,45 @@
 html {height: 100%;
 position: relative}
 
+@media screen and (max-width:700px) {
+    body {padding-bottom: 0 !important;
+}
+
+body {
+	height:100%; 
+	width:auto;
+	font-size: 12px;
+	color: #999;
+	color: rgba(255,255,255,.5);
+	font-family: 'Abel', sans-serif;
+	background-color: #191919;
+}
+
+* {
+  -webkit-touch-callout: none;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;    
+}
+
+{
+	padding: 0;
+	margin: 0;
+	line-height: 1.6em;
+	/*--COLOR ANIMATIONS--*/
+	-webkit-transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+	-moz-transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+	-o-transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+	transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;  
+ 	/*IE SCROLL STYLE*/
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+
+
 * {
   -webkit-touch-callout: none;
   
@@ -26,7 +65,7 @@ position: relative}
 html[Attributes Style] {
     -webkit-locale: "en";
 }
-user agent stylesheet
+
 html {
     display: block;
 }
@@ -41,5 +80,3 @@ body {
 }
 
 
-
-body {background-color: red}
