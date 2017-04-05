@@ -7,7 +7,6 @@ body {
     height: 100%;
     width: auto;
     font-size: 12px;
-
 }
 
 * {
@@ -17,8 +16,12 @@ body {
     transition: background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
 }
 
+.boxes {
+    text-align: center;
+    margin: 100px 50px 0 50px;
+}
 
-#mybox {
+.mybox {
     position: relative;
     display: inline-block;
     width: 100px;
@@ -26,4 +29,34 @@ body {
     opacity: 0.8;
     margin: 0 5% 200px 5%;
     z-index: 110;
+}
+
+#contentContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    background-color: #191919;
+}
+
+@media screen and (max-height: 600px) {
+    .boxes {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-height: 400px) and (max-width: 2000px) {
+    #logo {
+        width: 110px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+#logo {
+    width: 110px;
+    height: 30px;
+    }
 }
