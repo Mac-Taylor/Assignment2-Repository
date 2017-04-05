@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    width: auto;
+    font-size: 12px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6em;
+    transition: background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;
+}
+
+
+#mybox {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    margin: 0 5% 200px 5%;
+    z-index: 110;
+}

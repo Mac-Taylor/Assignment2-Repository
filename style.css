@@ -1,3 +1,4 @@
+/*
 html {height: 100%;
 position: relative}
 
@@ -5,7 +6,7 @@ position: relative}
     body {padding-bottom: 0 !important;
 }
 
-/* fix all this shit */
+/* fix all this shit 
 
 body {
 	height:100%; 
@@ -26,7 +27,7 @@ body {
 	line-height: 1.6em;
 	/*--COLOR ANIMATIONS--*/
 	transition:background-color 0.30s linear, border-color 0.30s linear, color 0.30s linear, outline-color 0.30s linear;  
- 	/*IE SCROLL STYLE*/
+ 	/*IE SCROLL STYLE
      }
 
 html[Attributes Style] {
@@ -46,4 +47,6 @@ body {
     margin: 8px;
 }
 
+
+*/
 
