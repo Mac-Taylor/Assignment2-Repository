@@ -9,6 +9,11 @@ body {
     font-size: 12px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -60,3 +65,25 @@ body {
     height: 30px;
     }
 }
+
+#headerImages {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.fs-background {
+    overflow: hidden;
+    position: relative;
+}
+
+.fs-background, .fs-background-container, .fs-background-media {
+    -webkit-transition: none;
+    transition: none;
+}
+
+
