@@ -26,6 +26,27 @@ img {
     margin: 100px 50px 0 50px;
 }
 
+#vys-credits {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto 40px;
+    max-width: 1000px;
+}
+
+#vys-credits span {
+    display: inline-block;
+    line-height: 1em;
+    margin: 0 3px;
+    cursor: crosshair;
+    color: #666;
+    color: rgba(255,255,255,.4);
+    font-family: 'Six Caps', sans-serif;
+    line-height: 1em;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 28px;
+}
+
 .mybox {
     position: relative;
     display: inline-block;
@@ -46,6 +67,11 @@ img {
     background-color: #191919;
 }
 
+main, #contentContainer {
+    height: 303px;
+
+}
+
 @media screen and (max-height: 600px) {
     .boxes {
         margin-top: 40px;
@@ -60,11 +86,12 @@ img {
 }
 
 @media screen and (max-height: 600px) {
-#logo {
+    #logo {
     width: 110px;
     height: 30px;
     }
 }
+
 
 #headerImages {
     position: absolute;
@@ -86,4 +113,65 @@ img {
     transition: none;
 }
 
+.fs-background-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+}
 
+.fs-background-media .fs-background-animated {
+    transition: opacity 0.5s linear;
+    }
+}
+
+div .fs-background-media .fs-background-animated {
+    height: 755.438px;
+    top: -226.219px;
+    opacity: 1;
+    width: 1343px;
+    left: 0px;
+}
+
+#footerContainer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+#footer {
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.fs-background-media {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.fs-background, .fs-background-container, .fs-background-media {
+    transition: none;
+}
+
+.more {
+    display: inline-block;
+    font-size: 90%;
+    color: #aaa;
+    color: rgba(255,255,255,.3);
+}
+
+.fs-background-media img, .fs-background-media video, .fs-background-media iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
